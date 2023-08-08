@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 46.65.203.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677343805183
+  login: 1677343769808
+money: '0'
+last-account-name: AshRB22
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: -2.418268371946765
+  y: -40.0
+  z: 3.573573151584834
+  yaw: -1.329833984375
+  pitch: -2.0128650665283203
+logoutlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 479.40923126869865
+  y: 137.0
+  z: 653.4463450181396
+  yaw: -125.92154693603516
+  pitch: -10.419074058532715

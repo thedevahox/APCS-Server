@@ -1,0 +1,133 @@
+beaconsToggled: true
+profiles:
+  626e1a21-4bfe-41c1-9fb7-6180019d7ddd:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  1d024f46-a8ab-494d-a241-68e0024d5279:
+    hearts: 37
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 74.4000015258789
+  8eab1e2b-97c5-4af6-a2db-8ce00b38398c:
+    hearts: 9
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 15.0
+  d46db87d-9849-4c4f-a291-27e092495ce3:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  14f781ab-419b-4f71-84b2-16f06ef9e9b6:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  476db86d-75aa-4b43-8eed-397a7a4b1aae:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    hol: 20.0
+    jab: true
+    bloc: done
+    maxh: 100
+  6e36ea10-3f37-4afb-a5bb-076a3c6bdc99:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  72eae4c7-0c53-47a3-b774-e4cf9cac6e2d:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    hol: 20.0
+    jab: true
+    bloc: done
+    maxh: 100
+  577ba067-26b8-4ef7-829d-46cf129937b8:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  aa414996-b849-4241-8108-f9c22a109ae7:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+  c283e6bb-00e8-44a8-b76f-851d904690c0:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    hol: 20.0
+    jab: true
+    bloc: done
+    maxh: 100
+  aa64173b-924d-42d0-a8fc-611a46a70258:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    hol: 20.0
+    jab: true
+    bloc: done
+    maxh: 100
+  1860a4e3-1720-4ae7-b941-d32fafcff879:
+    hearts: 10
+    banTime: 0
+    eliminated: false
+    jab: true
+    bloc: done
+    maxh: 100
+    hol: 20.0
+data:
+  626e1a21-4bfe-41c1-9fb7-6180019d7ddd:
+    name: ignIce
+  1d024f46-a8ab-494d-a241-68e0024d5279:
+    name: CheckedTwice
+  8eab1e2b-97c5-4af6-a2db-8ce00b38398c:
+    name: Worldtrader
+  d46db87d-9849-4c4f-a291-27e092495ce3:
+    name: Deidara
+  14f781ab-419b-4f71-84b2-16f06ef9e9b6:
+    name: SpireHD
+  476db86d-75aa-4b43-8eed-397a7a4b1aae:
+    name: WonderfulWhite
+  6e36ea10-3f37-4afb-a5bb-076a3c6bdc99:
+    name: FlyGuyTyler
+  72eae4c7-0c53-47a3-b774-e4cf9cac6e2d:
+    name: DaddyMaik
+  577ba067-26b8-4ef7-829d-46cf129937b8:
+    name: Wrenv3
+  aa414996-b849-4241-8108-f9c22a109ae7:
+    name: Melee__
+  c283e6bb-00e8-44a8-b76f-851d904690c0:
+    name: AshRB22
+  aa64173b-924d-42d0-a8fc-611a46a70258:
+    name: Zax71
+  1860a4e3-1720-4ae7-b941-d32fafcff879:
+    name: Makkertje_Pis

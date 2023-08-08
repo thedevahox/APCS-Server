@@ -1,0 +1,90 @@
+# Thank you for Downloading HiveChecker!
+#
+# Feel free to check out my other plugins here:
+# https://www.spigotmc.org/members/429752/#resources
+
+# Use permission "hivechecker.use" to check or allow everyone?
+Use Permissions: false
+
+# Should we open a GUI for the player instead of a message.
+Use GUI: true
+
+# Should the plugin update the hive guis as things happen?
+GUI Live Update: true
+# The time in ticks for each hive update, I recommend no lower than 5!
+GUI Live Update Time: 12
+
+# The title of the GUI
+GUI Title: "&e&lBees: &e%bees%/3 &7- &6&lHoney: &6%honey%/5"
+
+# Heads to display inside the GUI, picked randomly. You must have at least one.
+# These are the Base64 of heads - Check out https://minecraft-heads.com/
+# pick a head and copy the "Other -> Value"
+#
+# The heads can have a "Chance" applied to them, the chance is
+# how many times they are inside the random selection list
+# format: "CHANCE:TEXTURE" - defaults to 1 if no chance is added
+GUI Heads:
+  # Normal Bees
+  - "42:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0=" # Normal Bee
+  - "16:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0=" # Angry Bee
+  - "8:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0=" # Pollinated Normal Bee
+  # Special Bees
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjOTM2Yjk0MTgwODcyNzY3MDA4ZTNjNDI3NTRjN2FjN2FjMzQ4ZDRlMjJlOTI0ODI3MzQ0ZWMyYTY2ZjJiNCJ9fX0=" # Exhausted Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE5NDJhMTcwODk0ZTdkNzIwMTQyOTliYjU5ODg3MGUzMjZmNTIwNTE4YzBjNjU4MWE4ZDZmMTA0Y2FjYmVmZSJ9fX0=" # Captain Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5ZmE4Y2Q4NGFjMTI1MDIxZDYyMDFhMTQ4YTllODYyYzBiNzcyYzQ4NDc3YjA2YzE5MTQ1YzRhNjczYWEyNCJ9fX0=" # Bee Miner
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk2ZjY4ZjkxZDFlN2ViMTRhODMzNDQxYzU0ZGZmNzMxMDU3OTc2ODZkZGFkNzdlOWRjZThjOGM5NTVjZWJkNSJ9fX0=" # Hell Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk0YTg4MjEzYzc2ZmJiMjBiNWFlZTU2MzQ0OGVmYzE1MGM5ZDIyNTZiM2NkMjhmM2U4NTgzN2JkYWJhODlkZSJ9fX0=" # Zom-Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ0ZTZmOTk3ZDg1MmFjMGYyMGJhZDRhOTA2NDM3ZjFlOWM1MDNiMzViZTY2MjlmNTBmY2FhNDk0YjgxMGFlMiJ9fX0=" # Angry Zom-Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM5NGQ3NThlMDRiNDMyM2U2ZTdlZjM0ODlmZTRkMDA3OGMyZWZiYTg4NTFjMDNhN2RlYjZkNDE4MmM3ZWEzYSJ9fX0=" # Cyborg Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY4NTdlOTg3NmEzNjQ0ZGViYmYxZmQ3MzQ1YTQ4Zjk5OTcwNWUwYTk5M2ExMzA0OTI4ZmQwNmMxYjNmMWY5NCJ9fX0=" # Pilot Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0NWMzZGVmNjg5NDI3ZmQ4ZGY4Y2FkODI0YzBhNmI1NTNkNGY4NDdlYjAzNzA1MTk2YTY5YzdlZWQ5NDZhZiJ9fX0=" # Mr. Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI5ZmE4Y2Q4NGFjMTI1MDIxZDYyMDFhMTQ4YTllODYyYzBiNzcyYzQ4NDc3YjA2YzE5MTQ1YzRhNjczYWEyNCJ9fX0=" # Bee Miner
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE1Y2NjNGUyNjM3ODUxZjMyYmEzMzBiYjI5YWZmZGU3ZDhiNjY0NTVlMGViODk3NjA3MTM3YmVhMTE4MzU5NSJ9fX0=" # McDonalds Bee
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7ImlkIjoiZmFiMGMzZmE4MmY2NDIyNWIxMzJjNDFlOTZiMTBiNjYiLCJ0eXBlIjoiU0tJTiIsInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJiZTllMDRhMTAxZmNmMjA1MDM3YWVkNDg4MWUwZDZlYWVhZjU4MTQ2ZDRiM2QxYWVkZjY0MjgyNmQxNjQ5OSIsInByb2ZpbGVJZCI6ImM2ZGI4MWIzYTNmMzQ1ZTY5YWYwZDdlM2FjNjA0ZDFkIiwidGV4dHVyZUlkIjoiMWJiZTllMDRhMTAxZmNmMjA1MDM3YWVkNDg4MWUwZDZlYWVhZjU4MTQ2ZDRiM2QxYWVkZjY0MjgyNmQxNjQ5OSJ9fSwic2tpbiI6eyJpZCI6ImZhYjBjM2ZhODJmNjQyMjViMTMyYzQxZTk2YjEwYjY2IiwidHlwZSI6IlNLSU4iLCJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFiYmU5ZTA0YTEwMWZjZjIwNTAzN2FlZDQ4ODFlMGQ2ZWFlYWY1ODE0NmQ0YjNkMWFlZGY2NDI4MjZkMTY0OTkiLCJwcm9maWxlSWQiOiJjNmRiODFiM2EzZjM0NWU2OWFmMGQ3ZTNhYzYwNGQxZCIsInRleHR1cmVJZCI6IjFiYmU5ZTA0YTEwMWZjZjIwNTAzN2FlZDQ4ODFlMGQ2ZWFlYWY1ODE0NmQ0YjNkMWFlZGY2NDI4MjZkMTY0OTkifSwiY2FwZSI6bnVsbH0=" # Bee Cop
+  - "2:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7ImlkIjoiMWQ2OGZjOWM5NmFiNDAyZWI3ZTdkNjllMThhYjI1NzkiLCJ0eXBlIjoiU0tJTiIsInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZmMTA4ZGM0YmE2MzgwNDE0Nzg1MDczZDY1ZmUxNDc4YTQ0NmVkZjQ5NTQ0NWQ4Mjg4MjQ2MTIyMDEyYmMwZCIsInByb2ZpbGVJZCI6ImM2ZGI4MWIzYTNmMzQ1ZTY5YWYwZDdlM2FjNjA0ZDFkIiwidGV4dHVyZUlkIjoiYmZmMTA4ZGM0YmE2MzgwNDE0Nzg1MDczZDY1ZmUxNDc4YTQ0NmVkZjQ5NTQ0NWQ4Mjg4MjQ2MTIyMDEyYmMwZCJ9fSwic2tpbiI6eyJpZCI6IjFkNjhmYzljOTZhYjQwMmViN2U3ZDY5ZTE4YWIyNTc5IiwidHlwZSI6IlNLSU4iLCJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZjEwOGRjNGJhNjM4MDQxNDc4NTA3M2Q2NWZlMTQ3OGE0NDZlZGY0OTU0NDVkODI4ODI0NjEyMjAxMmJjMGQiLCJwcm9maWxlSWQiOiJjNmRiODFiM2EzZjM0NWU2OWFmMGQ3ZTNhYzYwNGQxZCIsInRleHR1cmVJZCI6ImJmZjEwOGRjNGJhNjM4MDQxNDc4NTA3M2Q2NWZlMTQ3OGE0NDZlZGY0OTU0NDVkODI4ODI0NjEyMjAxMmJjMGQifSwiY2FwZSI6bnVsbH0=" # Bride Bee
+  # Ultra Special Bees
+  - "1:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjI1ZGMwZWYzYjU3ZTNmMjUwNDRhNDVmNmYzYzVjNDBjOTRlMDVlNzYyZDk1ODA2OGMxNjE1Y2ExYjg3MTZmOSJ9fX0=" # Golden Bee
+  - "1:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmM2UyMTg4OWUyYTVkZTBmMzU4ZGUwYzFiYWI1YTIyYjU5NTZkZDUwNjFlYTk2YjQwNDk1MDAwYWJiMmE4NCJ9fX0=" # Diamond Bee
+  - "1:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA1MWUyMzczYzdhYTgzNTVhMzI0Zjc4YTQzMTY1YTQ0YTgwYjZiNzJiNThhNWUzYzAwMjdmNzdiZDZiODcwYSJ9fX0=" # Emerald Bee
+  - "1:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUxNmNhOWE0ODI4YTkxOGZkOTM1YTA0YmNjNTJjMzY5NThiNTRmMDhhZDE0MGRjMzViNzExNDVmNWMzZDEzOCJ9fX0=" # Man with Bee Mask
+
+# Should the Bees appear in a random order in the GUI?
+GUI Random Order: true
+
+# Should we add Honey into the GUI? (1 orange pane per level)
+GUI Display Honey: true
+
+# Should we add a evacuate button to force the bees out of the hive?
+GUI Evacuate Button: true
+
+# Should we generate a random seed for each Hive opened and save it into the Hives data?
+# So each time the hive is opened, the placement of items and Bee skins are always the same.
+# This is completely safe and uses Spigot's persistent data container and all it does it save a number aka a seed.
+GUI Uses Seeds: true
+
+# List of any disabled worlds for this plugin to ignore.
+# Case insensitive.
+Disabled Worlds:
+  - "nobeezone"
+
+# Names for the GUI items.
+GUI Item Name Evacuate: "&c&lEvacuate Bees"
+GUI Item Name Bee: "&eBee"
+GUI Item Name Honey: "&6Honey"
+
+# Language used for the plugin
+# <#XXXXXX> for hex colors.
+Language:
+
+  # Prefix for player chat messages. Set to "" to disable.
+  Prefix: "&d&l✪ "
+  
+  # Player messages
+  Check Message: "&7There is &e%bees%/3 &7Bees and &6%honey%/5 &7Honey &7inside this hive!"
+  
+  # Player & console messages
+  Command Usage:
+    - "&eHiveChecker Usages:"
+    - "&a/HiveChecker &7- &fTo show this help menu"
+    - "&a/HiveChecker Reload &7- &fTo reload the plugin's config"

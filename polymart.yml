@@ -1,0 +1,8 @@
+polymart:
+    upload: { id: '14723', version: v3.1, type: RELEASE }
+    download: { id: '135832', time: 1658086625 }
+    resource: { id: '2383', title: 'LifeSteal Setup | Native 1.18.2', subtitle: ' Shops Menus Ranks Banks & more!  Amazing Life Steal Experience with additonal features!', price: '3.99', url: 'https://polymart.org/resource/lifesteal-setup-native-1-18-2.2383' }
+injector:
+    version: 1
+    nonce: 7j378V5w
+    token: ZmY4OWI3YWE4NDMy

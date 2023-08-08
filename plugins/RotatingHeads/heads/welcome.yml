@@ -1,0 +1,41 @@
+settings: # settings is required!!
+  view-distance: 30 # 30 blocks view distance
+  view-permission: heads.welcome.view # Permission for view the head. Put here 'none' to disable.
+  location: Lobby(-2.5928351275561474,-40.0,13.13025241632519) # Head location
+  # Animation types:
+  # --------------------------------------------
+  # Rotate:
+  # optional data: direction (LEFT/RIGHT), speed (number)
+  # format: Rotate(direction=LEFT,speed=5)
+  # --------------------------------------------
+  # UpDown:
+  # optional data: value (double - jump value), jumps (number of jumps up and jumps down), smooth (boolean)
+  # format: UpDown(value=0.025,jumps=20,smooth=true)
+  animations:
+  - Rotate(direction=LEFT,speed=5)
+  - UpDown(value=0.025,jumps=20,smooth=true)
+  small: false # Armorstand size
+head:
+  # Types:
+  # - ITEM:
+  #   × first: Material
+  #   × optional data: amount (item amount - number), data (item data - old versions), skin (Player name OR %player% (perplayer head) OR %placeholderapi%),
+  #                    base64 (base64 value OR %placeholderapi%)
+  # - ENTITY: (COMING SOON)
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=%player%)
+name: # OPTIONAL
+  offset: 0.25 # height offset
+  space: 0.25 # Space value between lines (0.25 by default)
+  lines: # name lines
+    - '&c&lLIFE&f&lSTEAL'
+    - ''
+    - '&fWelcome &c%player%&f!'
+    - '&c&lLIFE&f&lSTEAL &fSMP is a Survival Server'
+    - '&fwhere whenever you kill a player'
+    - '&fyou steal a &cHeart &ffrom them!'
+    - ''
+    - '&fuse &c/rtp &fto Random Teleport to the wild!'
+particles: # OPTIONAL
+  - REDSTONE(type=AnimatedCircle,points=120,radius=1.0,color=255:255:255,size=1.6,offset=0:1.8:0,direction=RIGHT)
+  - REDSTONE(type=AnimatedCircle,points=120,radius=1.0,color=255:255:255,size=1.6,offset=0:1.8:0,direction=LEFT)

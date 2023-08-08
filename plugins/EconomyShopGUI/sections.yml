@@ -1,0 +1,136 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&2&lBlocks"
+    place: 19
+    lore:
+    - "&a&lWho doesn't love blocks?"    
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&9&lDecoration"
+    place: 30
+    lore:
+    - "&3&lGet some Decorations to lighten up your island!"    
+
+  Dyes:
+    enable: true
+    material: "CYAN_DYE"
+    displayname: "&2&lDyes"
+    place: 23
+    lore:
+    - "&a&lGet some colourful dyes!"    
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lEnchanting"
+    place: 22
+    lore:
+    - "&5&lGear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&a&lFarming"
+    place: 20
+    lore:
+    - "&2&lGet some materials that might help you farm!"    
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&6&lFood"
+    place: 25
+    lore:
+    - "&e&lGet some delicious food to fill your hunger!"    
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&7&lMobs"
+    place: 21
+    lore:
+    - "&8&lGet all kinds of mob drops!"    
+
+  Music:
+    enable: true
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMusic"
+    place: 14
+    lore:
+    - "&e&lFan of Music? Get some CDs!"    
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&f&lOres"
+    place: 13
+    lore:
+    - "&7&lGet some diamonds or emeralds!"    
+
+  Others:
+    enable: true
+    material: "SADDLE"
+    displayname: "&c&lOthers"
+    place: 24
+    lore:
+    - "&4&lSome non-categorized items!"    
+
+  Potions:
+    enable: true
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+    lore:
+    - "&5&lWho doesn't love potion effects?"    
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&c&lRedstone"
+    place: 32
+    lore:
+    - "&4&lFor all redstone geeks!"
+
+  Spawners:
+    enable: true
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    place: 31
+    lore:
+    - "&7&lNow you can get mobs just like that!"    
+
+  Workstations:
+    enable: true
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    place: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true

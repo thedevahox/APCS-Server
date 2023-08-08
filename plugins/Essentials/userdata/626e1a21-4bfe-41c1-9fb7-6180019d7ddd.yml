@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.184.125.77
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1677099659948
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677453677300
+  login: 1677453508252
+  kits:
+    tools: 1658095842931
+money: '49472.0'
+last-account-name: ignIce
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 506.9519623452461
+  y: 136.5
+  z: 632.8103526416318
+  yaw: -98.4500732421875
+  pitch: 5.999990463256836
+logoutlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 481.87792063741585
+  y: 137.5
+  z: 645.4685789339387
+  yaw: -130.8500518798828
+  pitch: 7.200008869171143

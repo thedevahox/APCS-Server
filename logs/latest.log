@@ -1,0 +1,832 @@
+[19:48:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:48:31] [Worker-Main-1/INFO]: Loaded 7 recipes
+[19:48:35] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[19:48:35] [Server thread/INFO]: Loading properties
+[19:48:35] [Server thread/INFO]: This server is running Paper version git-Paper-344 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 31ccc57)
+[19:48:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:48:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:48:35] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[19:48:35] [Server thread/INFO]: Default game type: SURVIVAL
+[19:48:35] [Server thread/INFO]: Generating keypair
+[19:48:36] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25219
+[19:48:36] [Server thread/INFO]: Using epoll channel type
+[19:48:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:48:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:48:36] [Server thread/ERROR]: Ambiguous plugin name `SCore' for files `plugins/SCore-3.9.35.jar' and `plugins/SCore-3.9.33.jar' in `plugins'
+[19:48:36] [Server thread/ERROR]: Ambiguous plugin name `MythicMobs' for files `plugins/MythicMobs-5.0.2.jar' and `plugins/MythicMobs-5.2.1.jar' in `plugins'
+[19:48:37] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:48:46] [Server thread/WARN]: Legacy plugin HomingArrow v1.5.3 does not specify an api-version.
+[19:48:46] [Server thread/ERROR]: Could not load 'plugins/CrackShotPlus (1).jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CrackShot]. Please download and install these plugins to run 'CrackShotPlus'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:48:46] [Server thread/WARN]: Legacy plugin IPWhitelist v1.7 does not specify an api-version.
+[19:48:46] [Server thread/ERROR]: Could not load 'plugins/MMOCore-1.11.1 (1).jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [MythicLib]. Please download and install these plugins to run 'MMOCore'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:48:46] [Server thread/WARN]: Legacy plugin DeathChest v0.3 does not specify an api-version.
+[19:48:46] [Server thread/ERROR]: Could not load 'plugins/EssentialsXDiscord-2.19.5-dev+29-09dc49a.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/ess3/provider/LoggerProvider
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:415) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:323) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NoClassDefFoundError: net/ess3/provider/LoggerProvider
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: net.ess3.provider.LoggerProvider
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[19:48:47] [Server thread/WARN]: Legacy plugin MythicMobsExtension v1.320-SNAPSHOT does not specify an api-version.
+[19:48:47] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[19:48:47] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 52a
+[19:48:47] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b205
+[19:48:47] [Server thread/INFO]: [DamageIndicator] Loading DamageIndicator v1.3.3
+[19:48:47] [Server thread/INFO]: [MoreOres] Loading MoreOres v1.13.6
+[19:48:47] [Server thread/INFO]: [HeadDrops] Loading HeadDrops v1.2-SNAPSHOT
+[19:48:47] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.5.1
+[19:48:47] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
+[19:48:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:48:48] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:48:48] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:48:48] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:48:48] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:48:48] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:48:48] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:48:48] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[19:48:49] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[19:48:49] [Via-Mappingloader-9/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
+[19:48:49] [Server thread/INFO]: [P-LifeSteal] Loading P-LifeSteal v1.9
+[19:48:49] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[19:48:49] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[19:48:49] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[19:48:50] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.5.1
+[19:48:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:48:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:48:50] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[19:48:51] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[19:48:51] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[19:48:52] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[19:48:52] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[19:48:52] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[19:48:53] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[19:48:53] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[19:48:53] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[19:48:53] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[19:48:53] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[19:48:53] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[19:48:53] [Via-Mappingloader-9/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
+[19:48:53] [Server thread/INFO]: [PrettierExplosions] Loading PrettierExplosions v1.0.1
+[19:48:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.0
+[19:48:54] [Server thread/INFO]: [KixsChatGames] Loading KixsChatGames v1.8.8
+[19:48:54] [Server thread/INFO]: [HarvestEXP] Loading HarvestEXP vBuild 3a
+[19:48:54] [Server thread/INFO]: [Trash] Loading Trash v1.0
+[19:48:54] [Server thread/INFO]: [HomingArrow] Loading HomingArrow v1.5.3
+[19:48:54] [Server thread/INFO]: [HiveChecker] Loading HiveChecker v3.7.0
+[19:48:54] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[19:48:56] [Server thread/INFO]: [IPWhitelist] Loading IPWhitelist v1.7
+[19:48:56] [Server thread/INFO]: [SternalBoard] Loading SternalBoard v2.0.1
+[19:48:56] [Server thread/INFO]: [DeathChest] Loading DeathChest v0.3
+[19:48:56] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:48:56] [Server thread/INFO]: [UltimateHomes] Loading UltimateHomes v2.5
+[19:48:56] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[19:48:56] [Server thread/INFO]: [Infiniteannouncements] Loading Infiniteannouncements v2.2.1
+[19:48:56] [Server thread/INFO]: [PlayerBounties] Loading PlayerBounties v1.5.5
+[19:48:56] [Server thread/INFO]: [BankPlus] Loading BankPlus v4.5
+[19:48:56] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v3.2.1
+[19:48:56] [Server thread/INFO]: [NexEngine] Loading NexEngine v2.1.2 build-24/04/2022
+[19:48:56] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[19:48:56] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.22.2
+[19:48:56] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.3.1
+[19:48:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[19:48:56] [Server thread/INFO]: [Trey's Command Blocker] Loading CommandBlocker v2.1.2
+[19:48:56] [Server thread/INFO]: [CommandPanels] Loading CommandPanels v3.17.4.0
+[19:48:56] [Server thread/INFO]: [RotatingHeads] Loading RotatingHeads v1.4.9
+[19:48:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[19:48:56] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v2.4.2-SNAPSHOT-247;a1babd5
+[19:48:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@57300c8d]
+[19:48:58] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v4.5.0
+[19:48:58] [Server thread/INFO]: [TAB] Loading TAB v3.1.1
+[19:48:58] [Server thread/INFO]: [Lottery] Loading Lottery v1.4.6
+[19:48:58] [Server thread/INFO]: [ExAFK] Loading ExAFK v1.0.0
+[19:48:58] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[19:48:58] [Server thread/INFO]: [BetterTeams] Loading BetterTeams v4.3.7
+[19:48:58] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[19:48:58] [Server thread/INFO]: [BetterTeams] File is up to date
+[19:48:58] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.2-b807
+[19:48:58] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.4.2-2
+[19:48:58] [Server thread/INFO]: [HellConomy] Loading HellConomy v0.1.5.0
+[19:48:58] [Server thread/INFO]: [HellConomy] Loading HellConomy with Java Version: 17.0.6
+[19:48:58] [Server thread/INFO]: [HellConomy] Hooked into Vault
+[19:48:58] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.4
+[19:48:58] [Server thread/INFO]: [ScLoad] Loading ScLoad v0.2.3
+[19:48:58] [Server thread/INFO]: [AdvancedPortals] Loading AdvancedPortals v0.9.1
+[19:48:58] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.30-SNAPSHOT (build 2617)
+[19:48:58] [Server thread/INFO]: [ExcellentCrates] Loading ExcellentCrates v4.0.4
+[19:48:58] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.14
+[19:48:58] [Server thread/INFO]: [QualityArmory] Loading QualityArmory v2.0.8.2
+[19:48:58] [Server thread/INFO]: [SCore] Loading SCore v3.9.35
+[19:48:58] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.9.35
+[19:48:58] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.0.2-a86da3b0
+[19:48:58] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[19:48:58] [Server thread/INFO]: [MythicMobsExtension] Loading MythicMobsExtension v1.320-SNAPSHOT
+[19:48:58] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v3.9.3 b735
+[19:48:58] [Server thread/INFO]: [ModelEngine] Loading ModelEngine vR3.1.4
+[19:48:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:48:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.0
+[19:48:59] [Server thread/INFO]:         __    
+[19:48:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.0
+[19:48:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:48:59] [Server thread/INFO]: 
+[19:48:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:49:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:49:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:49:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:49:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5811ms)
+[19:49:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[19:49:04] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:49:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:49:04] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[19:49:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:49:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:49:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:49:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:49:04] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[19:49:05] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.1.2 build-24/04/2022
+[19:49:05] [Server thread/INFO]: [NexEngine] Loaded NMS version: V1_18_R2
+[19:49:05] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms permissions
+[19:49:05] [Server thread/INFO]: [NexEngine] Successfully hooked with HellConomy economy
+[19:49:05] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms chat
+[19:49:05] [Server thread/INFO]: [NexEngine] Successfully hooked with Vault!
+[19:49:05] [Server thread/INFO]: [NexEngine] Found 0 external module(s).
+[19:49:05] [Server thread/INFO]: [NexEngine] Plugin loaded in 392 ms!
+[19:49:05] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.4.2-SNAPSHOT-247;a1babd5
+[19:49:06] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[19:49:06] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[19:49:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:49:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:49:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_18_R2.PaperweightFaweAdapter as the Bukkit adapter
+[19:49:08] [Server thread/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 125 build(s) out of date.
+You are running build 247, the latest version is build 372.
+Update at https://www.spigotmc.org/resources/13932/
+[19:49:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:49:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:49:08] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:49:08] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:49:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:49:08] [Server thread/INFO]: Preparing level "world"
+[19:49:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:49:15] [Server thread/INFO]: Time elapsed: 879 ms
+[19:49:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:49:16] [Server thread/INFO]: Time elapsed: 804 ms
+[19:49:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[19:49:16] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.5.1 which is not a depend or softdepend of this plugin.
+[19:49:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:49:17] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 52a
+[19:49:17] [Server thread/INFO]: [UltimateAutoRestart] Build 52a, a free resource by Norska - Thanks for downloading!
+[19:49:17] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
+[19:49:17] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b205
+[19:49:18] [Server thread/INFO]: [DamageIndicator] Enabling DamageIndicator v1.3.3
+[19:49:18] [Server thread/INFO]: [DamageIndicator] Using server version accessor for v1_18_R2
+[19:49:18] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.6
+[19:49:19] [Server thread/INFO]: More Ores Loaded Successfully! :-D
+[19:49:19] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v1.2-SNAPSHOT
+[19:49:19] [Server thread/INFO]: [HeadDrops] Found minor version: 18 (v1_18_R2)
+[19:49:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
+[19:49:19] [Server thread/INFO]: [P-LifeSteal] Enabling P-LifeSteal v1.9
+[19:49:19] [Server thread/INFO]: [CommandAPI] Chat preview is not available
+[19:49:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ls [1.9]
+[19:49:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
+[19:49:19] [Server thread/INFO]: [PrettierExplosions] Enabling PrettierExplosions v1.0.1
+[19:49:19] [Server thread/INFO]: [KixsChatGames] Enabling KixsChatGames v1.8.8
+[19:49:19] [Server thread/INFO]: [KixsChatGames] [STDOUT] [KixsChatGames] Leaked by YOURNAME @ BlackSpigot.com
+[19:49:19] [Server thread/WARN]: Nag author(s): '[kixmc]' of 'KixsChatGames' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:49:19] [Server thread/INFO]: 
+[19:49:19] [Server thread/INFO]: --------------------------------------
+[19:49:19] [Server thread/INFO]:      Kix's Chat Games by kixmc
+[19:49:19] [Server thread/INFO]:      Starting on version 1.8.8
+[19:49:19] [Server thread/INFO]: --------------------------------------
+[19:49:19] [Server thread/INFO]: 
+[19:49:20] [Server thread/WARN]: [KixsChatGames] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.1 which is not a depend or softdepend of this plugin.
+[19:49:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: kixschatgames [1.8.8]
+[19:49:20] [Server thread/INFO]: [HarvestEXP] Enabling HarvestEXP vBuild 3a
+[19:49:20] [Server thread/ERROR]: [HarvestEXP] Plugin HarvestEXP vBuild 3a has failed to register events for class dev.norska.hexp.hooks.HEXPScytherHook because dev/norska/scyther/api/ScytherAutocollectEvent does not exist.
+[19:49:20] [Server thread/INFO]: [Trash] Enabling Trash v1.0
+[19:49:20] [Server thread/INFO]: [Trash] Ready to take your server's trashes!
+[19:49:20] [Server thread/INFO]: [HomingArrow] Enabling HomingArrow v1.5.3*
+[19:49:20] [Server thread/INFO]: [=HomingArrow=] has been enabled | Plugin by Premx (Standalone Version)
+[19:49:20] [Server thread/INFO]: [HiveChecker] Enabling HiveChecker v3.7.0
+[19:49:20] [Server thread/INFO]: [HiveChecker] Initializing Managers...
+[19:49:20] [Server thread/INFO]: [HiveChecker] ConfigManager initialized!
+[19:49:20] [Server thread/INFO]: [HiveChecker] InventoryManager initialized!
+[19:49:20] [Server thread/INFO]: [HiveChecker] Registering config...
+[19:49:20] [Server thread/INFO]: [HiveChecker] Registering listeners...
+[19:49:20] [Server thread/INFO]: [HiveChecker] Registering commands...
+[19:49:20] [Server thread/INFO]: [HiveChecker] §aDone and enabled in 10.66ms
+[19:49:20] [Server thread/INFO]: [IPWhitelist] Enabling IPWhitelist v1.7*
+[19:49:20] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.0.1
+[19:49:20] [Server thread/INFO]: [DeathChest] Enabling DeathChest v0.3*
+[19:49:20] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v2.5
+[19:49:20] [Server thread/INFO]: 
+[19:49:20] [Server thread/INFO]: --------------------------------------
+[19:49:20] [Server thread/INFO]:        UltimateHomes by kixmc
+[19:49:20] [Server thread/INFO]:        Enabled on version 2.5
+[19:49:20] [Server thread/INFO]: --------------------------------------
+[19:49:20] [Server thread/INFO]:  
+[19:49:20] [Server thread/INFO]: [Infiniteannouncements] Enabling Infiniteannouncements v2.2.1
+[19:49:20] [Server thread/INFO]:  
+[19:49:20] [Server thread/INFO]: ====================================
+[19:49:20] [Server thread/INFO]: Plugin name: Infiniteannouncements
+[19:49:20] [Server thread/INFO]: Version: 2.2.1
+[19:49:20] [Server thread/INFO]: Core version: 0.7.24
+[19:49:20] [Server thread/INFO]: ====================================
+[19:49:20] [Server thread/INFO]:  
+[19:49:20] [Server thread/INFO]: [Infiniteannouncements] Loaded locale "en_US"
+[19:49:21] [Server thread/INFO]: [PlayerBounties] Enabling PlayerBounties v1.5.5
+[19:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerbounties [1.5.5]
+[19:49:21] [Server thread/INFO]: [PlayerBounties] Starting Metrics. You can opt-out using the global bStats config.
+[19:49:21] [Server thread/INFO]: [BankPlus] Enabling BankPlus v4.5
+[19:49:21] [Server thread/INFO]: 
+[19:49:21] [Server thread/INFO]:   BankPlus Enabling plugin...
+[19:49:21] [Server thread/INFO]:   Running on version 4.5!
+[19:49:21] [Server thread/INFO]:   Loaded config files! (6ms)
+[19:49:21] [Server thread/INFO]:   Registered events! (285ms)
+[19:49:21] [Server thread/INFO]:   Loaded plugin command! (1ms)
+[19:49:21] [Server thread/INFO]:   Done! (293 total ms)
+[19:49:21] [Server thread/INFO]: 
+[19:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bankplus [4.5]
+[19:49:21] [Server thread/INFO]: BankPlus [INFO] Hooked into PlaceholderAPI!
+[19:49:21] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.2.1
+[19:49:21] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[19:49:21] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[19:49:21] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_18_R2
+[19:49:21] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[19:49:21] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[19:49:21] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[19:49:21] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.22.2
+[19:49:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.22.2]
+[19:49:22] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.22.2
+[19:49:22] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
+[19:49:22] [Server thread/INFO]: There is a new version available. (2.25.1)
+[19:49:22] [Server thread/INFO]: You can download it at: https://www.spigotmc.org/resources/75185/
+[19:49:22] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.3.1
+[19:49:22] [Server thread/INFO]: [DecentHolograms] Using ProtocolLib for packet listening.
+[19:49:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[19:49:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:49:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:49:23] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[19:49:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[19:49:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:49:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:49:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:49:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:49:24] [Server thread/INFO]: [Trey's Command Blocker] Enabling CommandBlocker v2.1.2
+[19:49:24] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.17.4.0
+[19:49:24] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.17.4.0 Plugin Loading...
+[19:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: commandpanels [1.0.0]
+[19:49:24] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.17.4.0 Plugin Loaded!
+[19:49:24] [Server thread/INFO]: [RotatingHeads] Enabling RotatingHeads v1.4.9
+[19:49:24] [Server thread/INFO]: [RotatingHeads] Using ProtocolLib for packet listening.
+[19:49:24] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[19:49:24] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:49:24] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:49:25] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[19:49:26] [Server thread/INFO]: Time elapsed: 1002 ms
+[19:49:26] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:49:26] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:49:26] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v4.5.0
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Using lang-en.yml as language file.
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Shops.yml has been found!
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Sections.yml has been found!
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Successfully hooked into Vault
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Using minecraft version 1.18.2...
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Using plugin default spawners...
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Debug mode is enabled.
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Updating Shop settings...
+[19:49:26] [Server thread/INFO]: [EconomyShopGUI] Loading all items...
+[19:49:27] [Server thread/INFO]: [EconomyShopGUI] Done!
+[19:49:27] [Server thread/INFO]: [TAB] Enabling TAB v3.1.1
+[19:49:27] [Server thread/INFO]: [TAB] §7Server version: 1.18.2 (v1_18_R2)
+[19:49:27] [Server thread/INFO]: [TAB] §7Loaded NMS hook in 91ms
+[19:49:28] [Server thread/INFO]: [TAB] §aEnabled in 386ms
+[19:49:28] [Server thread/INFO]: [Lottery] Enabling Lottery v1.4.6
+[19:49:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lottery [1.0.0]
+[19:49:28] [Server thread/INFO]: [ExAFK] Enabling ExAFK v1.0.0
+[19:49:28] [Server thread/INFO]: [ExAFK] [STDOUT] Thank you for using ExAFK!
+[19:49:28] [Server thread/WARN]: Nag author(s): '[Jackerugo]' of 'ExAFK' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:49:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[19:49:29] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[19:49:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[19:49:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:49:29] [Server thread/WARN]: [NexEngine] Loaded class com.sk89q.worldguard.WorldGuard from WorldGuard v7.0.7+216b061 which is not a depend or softdepend of this plugin.
+[19:49:29] [Server thread/INFO]: [NexEngine] Successfully hooked with WorldGuard!
+[19:49:29] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.3.7
+[19:49:29] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[19:49:29] [Server thread/INFO]: [BetterTeams] File is up to date
+[19:49:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: betterTeams [4.3.7]
+[19:49:29] [Server thread/INFO]: Display team name config value: prefix
+[19:49:29] [Server thread/INFO]: Loading below name. Type: PREFIX
+[19:49:29] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@23dd8112
+[19:49:29] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.2-b807
+[19:49:29] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.2-b807]  Enabled - By Rigby and fernferret
+[19:49:29] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.4.2-2
+[19:49:30] [Server thread/INFO]: [HellConomy] Enabling HellConomy v0.1.5.0
+[19:49:30] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[19:49:31] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[19:49:31] [Server thread/INFO]: [net.tnemc.libs.org.javalite.activejdbc.Configuration] Reading properties from: /database.properties. Will try classpath, then file system.
+[19:49:32] [Server thread/INFO]: [HellConomy] [STDOUT] Version information is being checked.
+[19:49:32] [Server thread/WARN]: Nag author(s): '[creatorfromhell]' of 'HellConomy' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:49:32] [Server thread/INFO]: [HellConomy] HellConomy has been enabled!
+[19:49:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.4
+[19:49:32] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:49:32] [Server thread/INFO]: [ScLoad] Enabling ScLoad v0.2.3
+[19:49:32] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.9.1
+[19:49:32] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[19:49:32] [Server thread/INFO]: [AdvancedPortals] Bungee detected. Enabling proxy features.
+[19:49:32] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[19:49:32] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2617)
+[19:49:33] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[19:49:33] [Server thread/WARN]: [NexEngine] Loaded class net.citizensnpcs.api.trait.TraitInfo from Citizens v2.0.30-SNAPSHOT (build 2617) which is not a depend or softdepend of this plugin.
+[19:49:33] [Server thread/INFO]: [NexEngine] Successfully hooked with Citizens!
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v4.0.4
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Successfully hooked with HolographicDisplays!
+[19:49:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: excellentcrates [4.0.4]
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Successfully hooked with PlaceholderAPI!
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Found 0 external module(s).
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Loaded 5 animation configs.
+[19:49:33] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crate keys.
+[19:49:34] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
+[19:49:34] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 493 ms!
+[19:49:34] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.14
+[19:49:34] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
+[19:49:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.14]
+[19:49:34] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[19:49:34] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[19:49:34] [Server thread/INFO]: [AureliumSkills] Loaded 190 config options in 0 ms
+[19:49:34] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 94ms
+[19:49:34] [Server thread/INFO]: [AureliumSkills] HolographicDisplays Support Enabled!
+[19:49:34] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:49:34] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[19:49:39] [Server thread/INFO]: [AureliumSkills] Loaded 16 languages in 4695ms
+[19:49:39] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[19:49:40] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
+[19:49:40] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[19:49:40] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[19:49:40] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[19:49:40] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[19:49:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_18_R2! Trying to find NMS support
+[19:49:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_18_R2' loaded!
+[19:49:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[19:49:40] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.8.2
+[19:49:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: qualityarmory [2.0.8.2]
+[19:49:40] [Server thread/INFO]: [QualityArmory] Found PlaceholderAPI. Loaded support
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[19:49:40] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[19:49:41] [Server thread/INFO]: [SCore] Enabling SCore v3.9.35
+[19:49:41] [Server thread/INFO]: ================ SCore ================
+[19:49:41] [Server thread/INFO]: SCore Version of the server git-Paper-344 (MC: 1.18.2) !
+[19:49:41] [Server thread/INFO]: SCore ExecutableItems hooked !  (5.9.35)
+[19:49:41] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.1)
+[19:49:41] [Server thread/INFO]: SCore WorldGuard hooked !  (7.0.7+216b061)
+[19:49:41] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)
+[19:49:41] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.1-b861)
+[19:49:41] [Server thread/INFO]: SCore ProtocolLib hooked !
+[19:49:41] [Server thread/INFO]: SCore MythicMobs hooked !  (5.0.2-a86da3b0)
+[19:49:41] [Server thread/INFO]: SCore DecentHolograms hooked !  (2.3.1)
+[19:49:41] [Server thread/ERROR]: [SCore] HolographicDisplays hooked BUT you haven't the good version ! (require 3.0 or higher) !
+[19:49:41] [Server thread/WARN]: java.lang.NoClassDefFoundError: me/filoghost/holographicdisplays/api/HolographicDisplaysAPI
+[19:49:41] [Server thread/WARN]: 	at SCore-3.9.35.jar//com.ssomar.score.SCore.loadDependency(SCore.java:323)
+[19:49:41] [Server thread/WARN]: 	at SCore-3.9.35.jar//com.ssomar.score.SCore.onEnable(SCore.java:196)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474)
+[19:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664)
+[19:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[19:49:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:316)
+[19:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1163)
+[19:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[19:49:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:49:41] [Server thread/WARN]: Caused by: java.lang.ClassNotFoundException: me.filoghost.holographicdisplays.api.HolographicDisplaysAPI
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151)
+[19:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103)
+[19:49:41] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[19:49:41] [Server thread/WARN]: 	... 13 more
+[19:49:41] [Server thread/INFO]: SCore AureliumSkills hooked !  (Beta 1.3.14)
+[19:49:41] [Server thread/INFO]: SCore Locale setup: EN
+[19:49:41] [Server thread/INFO]: SCore Language of the editor setup on EN
+[19:49:41] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[19:49:41] [Server thread/INFO]: SCore onnection to the db...
+[19:49:41] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[19:49:41] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[19:49:41] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[19:49:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SCore [1.0.0]
+[19:49:41] [Server thread/INFO]: ================ SCore ================
+[19:49:41] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.9.35
+[19:49:41] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[19:49:41] [Server thread/INFO]: ExecutableItems PlaceholderAPI hooked !
+[19:49:41] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
+[19:49:41] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
+[19:49:45] [Server thread/ERROR]: &cERROR, Couldn't load the World value of ifInWorld from config, value: world_the_end &7&o(Item: Prem_World_Teleporter)
+[19:49:46] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[19:49:46] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.0.2-a86da3b0
+[19:49:47] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.18.2)...[0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
+[19:49:47] [Server thread/WARN]: [MythicMobs] Loaded class org.slf4j.impl.StaticLoggerBinder from HellConomy v0.1.5.0 which is not a depend or softdepend of this plugin.
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 86 ms to scan 1 urls, producing 3 keys and 21 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 15 ms to scan 1 urls, producing 6 keys and 94 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 104 ms to scan 77 urls, producing 0 keys and 0 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 60 ms to scan 1 urls, producing 3 keys and 36 values 
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs ModelEngine Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs HolographicDisplays Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs PlaceholderAPI Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] Loaded ProtocolLib packet handlers[0m
+[19:49:47] [Server thread/WARN]: [MythicMobs] Loaded class com.comphenix.protocol.PacketType from ProtocolLib v4.8.0 which is not a depend or softdepend of this plugin.
+[19:49:47] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] Verifier error: Cycle detected in dependency graph: MythicMobs v5.0.2-a86da3b0
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs ProtocolLib Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[19:49:47] [Server thread/INFO]: [MythicMobs] Base directory /home/container/plugins/MythicMobs/SavedData
+[19:49:47] [Server thread/INFO]: [MythicMobs] Module directory /home/container/plugins/MythicMobs/SavedData/worlds
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 72 ms to scan 1 urls, producing 11 keys and 402 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 87 ms to scan 1 urls, producing 25 keys and 803 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 64 ms to scan 1 urls, producing 9 keys and 145 values 
+[19:49:47] [Server thread/INFO]: [io.lumine.mythic.utils.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 2 keys and 11 values 
+[19:49:47] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[19:49:48] [Server thread/WARN]: [MythicMobs] Failed to parse Placeholder '1.0E-4': Math and variables in numeric values require premium! Consider getting MythicMobs Premium at www.mythiccraft.io[0m[0m
+[19:49:48] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mskill{s=CancelEventSkill;sync=true}[0m[33m' in 'Unknown': [37mCould not find MetaSkill CancelEventSkill[0m[0m
+[19:49:48] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mskill{s=CancelEventSkill;sync=true}[0m[33m' in 'Unknown': [37mCould not find MetaSkill CancelEventSkill[0m[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 17 mobs.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 122 skills.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 random spawns.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[19:49:48] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[19:49:49] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[19:49:49] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.0.2 (build a86da3b0) has been successfully loaded![0m[0m
+[19:49:49] [Server thread/WARN]: [NexEngine] Loaded class io.lumine.mythic.api.exceptions.InvalidMobTypeException from MythicMobs v5.0.2-a86da3b0 which is not a depend or softdepend of this plugin.
+[19:49:49] [Server thread/INFO]: [NexEngine] Successfully hooked with MythicMobs!
+[19:49:49] [Server thread/INFO]: [MythicMobsExtension] Enabling MythicMobsExtension v1.320-SNAPSHOT*
+[19:49:49] [Server thread/ERROR]: An unexpected error occurred initializing Magic
+java.lang.ClassNotFoundException: net.minecraft.server.v1_18_R2.Block
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.gmail.berndivader.mythicmobsext.compatibilitylib.NMSUtils.fixBukkitClass(NMSUtils.java:1217) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at com.gmail.berndivader.mythicmobsext.compatibilitylib.NMSUtils.initialize(NMSUtils.java:343) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at com.gmail.berndivader.mythicmobsext.NMS.NMSUtils.initialize(NMSUtils.java:40) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at com.gmail.berndivader.mythicmobsext.Main.onEnable(Main.java:69) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-344]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:316) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:49:49] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_18_R2.IChatBaseComponent$ChatSerializer
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103)
+[19:49:49] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[19:49:49] [Server thread/WARN]: 	at MythicMobsExtension-1.320-SNAPSHOT.jar//com.gmail.berndivader.mythicmobsext.compatibilitylib.NMSUtils.fixBukkitClass(NMSUtils.java:1217)
+[19:49:49] [Server thread/WARN]: 	at MythicMobsExtension-1.320-SNAPSHOT.jar//com.gmail.berndivader.mythicmobsext.NMS.NMSUtils.initialize(NMSUtils.java:42)
+[19:49:49] [Server thread/WARN]: 	at MythicMobsExtension-1.320-SNAPSHOT.jar//com.gmail.berndivader.mythicmobsext.Main.onEnable(Main.java:69)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560)
+[19:49:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474)
+[19:49:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664)
+[19:49:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[19:49:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:316)
+[19:49:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1163)
+[19:49:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[19:49:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[19:49:49] [Server thread/ERROR]: Error occurred while enabling MythicMobsExtension v1.320-SNAPSHOT (Is it up to date?)
+java.lang.NoClassDefFoundError: io/lumine/xikage/mythicmobs/MythicMobs
+	at com.gmail.berndivader.mythicmobsext.utils.Utils.<clinit>(Utils.java:121) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at com.gmail.berndivader.mythicmobsext.Main.onEnable(Main.java:98) ~[MythicMobsExtension-1.320-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-344]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:316) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: io.lumine.xikage.mythicmobs.MythicMobs
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 13 more
+[19:49:49] [Server thread/INFO]: [MythicMobsExtension] Disabling MythicMobsExtension v1.320-SNAPSHOT
+[19:49:49] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.9.3 b735
+[19:49:49] [Server thread/INFO]: LevelledMobs: Using NMS version v1_18_R2 for nametag support
+[19:49:49] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[19:49:49] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[19:49:49] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[19:49:49] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[19:49:49] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[19:49:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: LevelledMobs [3.9.3 b735]
+[19:49:49] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[19:49:49] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[19:49:49] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[19:49:49] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[19:49:49] [Server thread/INFO]: LevelledMobs: Start-up complete (took 285ms)
+[19:49:49] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR3.1.4
+[19:49:49] [Server thread/ERROR]: Error occurred while enabling ModelEngine vR3.1.4 (Is it up to date?)
+java.lang.NoClassDefFoundError: io/lumine/mythic/bukkit/compatibility/AbstractModelEngineSupport
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:197) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.ticxo.modelengine.ModelEngine.configureMythicMobsSupport(ModelEngine.java:251) ~[Model-Engine-R3.1.4.jar:?]
+	at com.ticxo.modelengine.api.utils.CompatibilityManager.registerSupport(CompatibilityManager.java:36) ~[Model-Engine-R3.1.4.jar:?]
+	at com.ticxo.modelengine.ModelEngine.onEnable(ModelEngine.java:106) ~[Model-Engine-R3.1.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-344]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:316) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-344]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-344]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: io.lumine.mythic.bukkit.compatibility.AbstractModelEngineSupport
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:151) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 22 more
+[19:49:49] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR3.1.4
+[19:49:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:49:50] [Server thread/INFO]: Running delayed init tasks
+[19:49:50] [Craft Scheduler Thread - 10 - Essentials/INFO]: [Essentials] §x§f§f§b§b§0§0Fetching version information...
+[19:49:50] [Server thread/WARN]: [FastAsyncWorldEdit] Loaded class com.sk89q.worldguard.protection.association.RegionAssociable from WorldGuard v7.0.7+216b061 which is not a depend or softdepend of this plugin.
+[19:49:50] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[19:49:50] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[19:49:50] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] Checking for Updates ... 
+[19:49:50] [Craft Scheduler Thread - 23 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
+[19:49:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[19:49:51] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] No new version available
+[19:49:51] [Server thread/INFO]: [CommandAPI] Linked 6 Bukkit permissions to commands
+[19:49:51] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[19:49:51] [Craft Scheduler Thread - 15 - BetterTeams/INFO]: [BetterTeams] [STDOUT] [BetterTeams] An update for BetterTeams has been released. Update here (https://www.spigotmc.org/resources/better-teams.17129/)
+[19:49:51] [Craft Scheduler Thread - 15 - BetterTeams/WARN]: Nag author(s): '[booksaw]' of 'BetterTeams' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[19:49:51] [Craft Scheduler Thread - 11 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[19:49:51] [Craft Scheduler Thread - 10 - Essentials/WARN]: [Essentials] §x§f§f§0§0§0§0⚠ §l| §x§a§d§a§d§a§dThere is a new EssentialsX version available for download: §f2.19.7§x§a§d§a§d§a§d.
+[19:49:51] [Craft Scheduler Thread - 10 - Essentials/WARN]: [Essentials] §x§f§f§b§b§0§0✎ §l| §x§a§d§a§d§a§dDownload it here:§f https://essentialsx.net/downloads.html?branch=stable
+[19:49:51] [Craft Scheduler Thread - 8 - P-LifeSteal/INFO]: --------P-LifeSteal-1.9--------
+[19:49:51] [Craft Scheduler Thread - 8 - P-LifeSteal/INFO]: - You are up to date.
+[19:49:51] [Craft Scheduler Thread - 8 - P-LifeSteal/INFO]: - Thank you for using my plugin!
+[19:49:51] [Craft Scheduler Thread - 8 - P-LifeSteal/INFO]: --------P-LifeSteal-1.9--------
+[19:49:52] [Server thread/INFO]: Loaded 7 recipes
+[19:49:55] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[19:49:55] [Server thread/INFO]: [AuctionHouse] Registered Service Provider HellConomy for Vault's Economy API
+[19:49:55] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[19:49:55] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:49:57] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crates.
+[19:49:58] [Server thread/INFO]: [Citizens] Loaded 14 NPCs.
+[19:49:58] [Server thread/INFO]: [MythicMobs] [32m✓Using HolographicDisplays plugin for holograms[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftscratch}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftswing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftsmash}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftlunge;sp=1.5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftheavysmash}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftsmash_rightuppercut}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=leftjumpsmash}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightscratch}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightswing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightsmash}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightlunge;sp=1.5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightroundhouse}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightuppercut_leftsmash}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=rightpunch}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=head;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=left_head;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=right_head;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=jaw;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=left_head;newmodel=toro_wither_still;newpart=left_head}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=left_head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=right_head;newmodel=toro_wither_still;newpart=right_head}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=right_head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=head;newmodel=toro_wither_still;newpart=head}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_still;part=jaw;newmodel=toro_wither_still;newpart=jaw}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=intro;lerpin=20}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=right_forearm}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=left_forearm}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_still;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=death}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=shoot;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=wither_pool;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=left_claw}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=right_claw}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=claw1;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=claw2;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=overhead_swipe;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=left_claw}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=right_claw}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=smash;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=cont_smash;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=roundhouse;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=intro}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=head_on_hand;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=jaw2;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=right_forearm}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_forearm}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=tail2}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=death}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=body}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=left_smash;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=right_smash;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=right_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=left_smash2;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=right_smash2;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=right_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=left_swing;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=tail2}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=right_swing;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=right_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=tail2}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=shoot;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=head_on_hand;newmodel=toro_wither_terror;newpart=head_on_hand}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=jaw2;newmodel=toro_wither_terror;newpart=jaw2}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=head;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mChangePart{model=toro_wither_terror;part=jaw;newmodel=toro_wither_still;newpart=nothing}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic CHANGEPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mdefaultstate{m=toro_wither_terror;t=idle;s=head_off_idle}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic DEFAULTSTATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mdefaultstate{m=toro_wither_terror;t=walk;s=head_off_walk}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic DEFAULTSTATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off_left_smash;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off_left_smash2;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off_left_swing;lerpin=10}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=left_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=tail2}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off_smash2_shoot;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head_on_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=head_off_swing_shoot;lerpin=5}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Targeter line '[4mModelPart{mid=toro_wither_terror;part=head_on_hand}[0m[33m': [37mFailed to load custom targeter MODELPART[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither_skull;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither_pool;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither_still;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither_skull_2ndphase;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=toro_wither_terror;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=idle;r=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mstate{s=walk;r=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic STATE[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=slimegirlprincess;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/WARN]: [MythicMobs] ✗[33m Config Error for Mechanic line '[4mmodel{mid=slimegirlprincessspawn;h=true;n=false;tint=false}[0m[33m' in 'Unknown': [37mFailed to load custom mechanic MODEL[0m[0m
+[19:49:58] [Server thread/INFO]: ✪ Plugin version outdated! Your version: 1.5.5, Latest version: 0.0.0
+[19:49:58] [Server thread/INFO]: ✪ A new update is available at: https://www.spigotmc.org/resources/playerbounties.90754/
+[19:49:58] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.2) is available at:
+[19:49:58] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[19:49:58] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:49:58] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.1
+[19:49:58] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[19:49:58] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
+[19:49:58] [Server thread/INFO]: [KixsChatGames Updater] You are running an outdated version of Kix's Chat Games. Version 2.0.2 is available; you're on 1.8.8! Download at www.spigotmc.org/resources/85143/updates
+[19:49:58] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[19:49:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [3.2.1]
+[19:49:58] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[19:49:58] [Server thread/INFO]: Done (83.618s)! For help, type "help"
+[19:49:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8480ms or 169 ticks behind
+[19:49:58] [Server thread/INFO]: Timings Reset
+[19:50:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.2]
+[19:50:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[19:50:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
+[19:50:00] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[19:50:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.0]
+[19:50:00] [Server thread/INFO]: 4 placeholder hook(s) registered! 3 placeholder hook(s) have an update available.
+[19:50:00] [Server thread/INFO]: [Lottery] Plugin successfully linked with vault!
+[19:50:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ultimateautorestart [Build 52a]
+[19:50:02] [Server thread/INFO]: [UltimateAutoRestart] Hooked into PlaceholderAPI!
+[19:50:02] [Server thread/INFO]: [UltimateAutoRestart] Successfully performed 1 hooks!
+[19:50:02] [Server thread/INFO]: [HarvestEXP] Attempting hooks...
+[19:50:02] [Server thread/INFO]: [HarvestEXP] Hooked into PlaceholderAPI!
+[19:50:02] [Server thread/INFO]: [HarvestEXP] Successfully performed 1 hooks!
+[19:50:03] [Server thread/INFO]:  
+[19:50:03] [Server thread/INFO]:  [UltimateAutoRestart] New update available!
+[19:50:03] [Server thread/INFO]:  Current version: Build 52a with latest being Build 52c!
+[19:50:03] [Server thread/INFO]:  
+[19:50:03] [Server thread/INFO]:  SpigotMC -> https://norska.dev/r/spigot/uar/
+[19:50:03] [Server thread/INFO]:  Polymart -> https://norska.dev/r/polymart/uar/
+[19:50:03] [Server thread/INFO]:  
+[19:50:03] [Server thread/INFO]:  
+[19:50:03] [Server thread/INFO]:  [HarvestEXP] New update available!
+[19:50:03] [Server thread/INFO]:  Current version: Build 3a with latest being Build 4a!
+[19:50:03] [Server thread/INFO]:  
+[19:50:03] [Server thread/INFO]:  SpigotMC -> https://norska.dev/r/spigot/hexp/
+[19:50:03] [Server thread/INFO]:  Polymart -> https://norska.dev/r/polymart/hexp/
+[19:50:03] [Server thread/INFO]:  
+[19:52:26] [User Authenticator #1/INFO]: UUID of player CheckedTwice is 1d024f46-a8ab-494d-a241-68e0024d5279
+[19:52:27] [Server thread/INFO]: CheckedTwice joined the game
+[19:52:27] [Server thread/INFO]: CheckedTwice[/76.167.199.36:48928] logged in with entity id 361 at ([Lobby]470.0975111164195, 137.0, 658.4079736086727)
+[19:52:45] [Server thread/INFO]: CheckedTwice issued server command: /buy
+[19:52:48] [Server thread/INFO]: CheckedTwice issued server command: /buycraft
+[19:54:55] [Server thread/WARN]: [NexEngine] Loaded class me.clip.placeholderapi.PlaceholderAPI from PlaceholderAPI v2.11.1 which is not a depend or softdepend of this plugin.
+[19:55:14] [Server thread/INFO]: CheckedTwice issued server command: /kit
+[19:55:23] [Server thread/INFO]: CheckedTwice issued server command: /pv 2
+[20:01:30] [User Authenticator #2/INFO]: UUID of player GeneralSparkplug is c854685d-516d-43c9-9d55-4a3bd083e005
+[20:01:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ce5a663[id=c854685d-516d-43c9-9d55-4a3bd083e005,name=GeneralSparkplug,properties={textures=[com.mojang.authlib.properties.Property@662b3a4d]},legacy=false] (/92.140.191.251:38466): You are not whitelisted on this server!
+[20:01:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ce5a663[id=c854685d-516d-43c9-9d55-4a3bd083e005,name=GeneralSparkplug,properties={textures=[com.mojang.authlib.properties.Property@662b3a4d]},legacy=false] (/92.140.191.251:38466) lost connection: You are not whitelisted on this server!
+[20:04:58] [Craft Scheduler Thread - 42 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 1 online users | 0 offline users.
+[20:10:44] [Server thread/INFO]: CheckedTwice lost connection: Disconnected
+[20:10:44] [Server thread/INFO]: CheckedTwice left the game
+[20:10:58] [Server thread/INFO]: [Lottery] There were no Tickets sold.
+[20:19:58] [Craft Scheduler Thread - 61 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
+[20:34:58] [Craft Scheduler Thread - 81 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
+[20:37:22] [User Authenticator #3/INFO]: UUID of player CheckedTwice is 1d024f46-a8ab-494d-a241-68e0024d5279
+[20:37:22] [Server thread/INFO]: CheckedTwice joined the game
+[20:37:22] [Server thread/INFO]: CheckedTwice[/76.167.199.36:40202] logged in with entity id 434 at ([Lobby]495.89642633285183, 136.0625, 641.2462853710058)
+[20:37:37] [Server thread/INFO]: CheckedTwice issued server command: /info

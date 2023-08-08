@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 142.118.166.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677042712614
+  login: 1677041718133
+money: '0'
+last-account-name: Deidara
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 188.97889505362306
+  y: 114.79673560066871
+  z: 628.5580479735492
+  yaw: 43.39900588989258
+  pitch: 14.005900382995605
+logoutlocation:
+  world: f6d355bf-988d-429b-8b1e-5ddcbac063b2
+  world-name: world
+  x: -1275.1841381458871
+  y: 64.0
+  z: 414.251202575585
+  yaw: -101.08650207519531
+  pitch: 13.507026672363281

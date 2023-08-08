@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "626e1a21-4bfe-41c1-9fb7-6180019d7ddd",
+    "name": "ignIce",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2826bd4e-bffc-4c9b-b804-4154e54e4b13",
+    "name": "WiredIn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1d024f46-a8ab-494d-a241-68e0024d5279",
+    "name": "CheckedTwice",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

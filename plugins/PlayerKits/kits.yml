@@ -1,0 +1,561 @@
+Kits:
+  vip:
+    slot: 10
+    display_item: PLAYER_HEAD
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0NDk4YTBmZTI3ODk1NmUzZDA0MTM1ZWY0YjEzNDNkMDU0OGE3ZTIwOGM2MWIxZmI2ZjNiNGRiYzI0MGRhOCJ9fX0=
+    display_name: '&e&lVIP &8| &7&okit'
+    display_lore:
+    - ''
+    - '&e&lInformation'
+    - '&e&l┃ &7Kit: &e[VIP]'
+    - '&e&l┃ &7Cooldown: &e24h'
+    - '&e&l┃ &7Status: &a&l✔'
+    - ''
+    - '&eLeft-click &8| &7claim kit'
+    - '&eRight-click &8| &7preview kit'
+    cooldown: 86400
+    permission: kits.vip
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c&lVIP &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[VIP]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    one_time_buy: false
+    auto_armor: true
+    price: '250'
+    display_item_glowing: false
+    noBuyItem:
+      display_item: FURNACE_MINECART
+      display_name: '&c&lVIP &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[VIP]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission'
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: STONE_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: STONE_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: STONE_HOE
+        amount: '1'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: CHAINMAIL_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: CHAINMAIL_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: CHAINMAIL_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        id: CHAINMAIL_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 8
+      '10':
+        id: BUCKET
+        amount: '1'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: FISHING_ROD
+        amount: '1'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        id: APPLE
+        amount: '8'
+        durability: '0'
+        preview_slot: 12
+      '14':
+        book-enchants:
+        - DURABILITY;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 13
+      '15':
+        book-enchants:
+        - DAMAGE_ALL;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 14
+      '16':
+        id: WHEAT
+        amount: '3'
+        durability: '0'
+        preview_slot: 15
+  mvp:
+    slot: 12
+    display_item: PLAYER_HEAD
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmN2NkZmVhMmQyMWNkNWY2ZWJiZjQ4NDgxNzYxYzZjYmRmMzZkMDBmZTY0MDgzNjg2ZTlhZWFhM2YxZjIxNyJ9fX0=
+    display_name: '&b&lMVP &8| &7&okit'
+    display_lore:
+    - ''
+    - '&b&lInformation'
+    - '&b&l┃ &7Kit: &b[MVP]'
+    - '&b&l┃ &7Cooldown: &b24h'
+    - '&b&l┃ &7Status: &a&l✔'
+    - ''
+    - '&bLeft-click &8| &7claim kit'
+    - '&bRight-click &8| &7preview kit'
+    cooldown: 86400
+    permission: kits.mvp
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c&lMVP &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[MVP]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    one_time_buy: false
+    auto_armor: true
+    price: '250'
+    display_item_glowing: false
+    noBuyItem:
+      display_item: FURNACE_MINECART
+      display_name: '&c&lMVP &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[MVP]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    Items:
+      '1':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: IRON_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: IRON_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: IRON_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: IRON_HOE
+        amount: '1'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 8
+      '10':
+        id: BUCKET
+        amount: '1'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: FISHING_ROD
+        amount: '1'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        book-enchants:
+        - LOOT_BONUS_BLOCKS;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 12
+      '14':
+        book-enchants:
+        - PROTECTION_FIRE;1
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 13
+      '15':
+        id: SLIME_BALL
+        amount: '2'
+        durability: '0'
+        preview_slot: 14
+      '16':
+        id: LEATHER
+        amount: '4'
+        durability: '0'
+        preview_slot: 15
+  special:
+    slot: 14
+    display_item: PLAYER_HEAD
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJhNTU2NzFmOTdmZjNiZmM1YmUzMzVhZTkyY2Q5NzQ5YWJkNjE5ZTdhZmMyYTY2NzM1OTdiODBiNzU1Yzc0MSJ9fX0=
+    display_name: '&a&lSPECIAL &8| &7&okit'
+    display_lore:
+    - ''
+    - '&a&lInformation'
+    - '&a&l┃ &7Kit: &a[SPECIAL]'
+    - '&a&l┃ &7Cooldown: &a24h'
+    - '&a&l┃ &7Status: &a&l✔'
+    - ''
+    - '&aLeft-click &8| &7claim kit'
+    - '&aRight-click &8| &7preview kit'
+    cooldown: 86400
+    permission: kits.special
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c&lSPECIAL &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[SPECIAL]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    one_time_buy: false
+    auto_armor: true
+    price: '250'
+    display_item_glowing: false
+    noBuyItem:
+      display_item: FURNACE_MINECART
+      display_name: '&c&lSPECIAL &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[SPECIAL]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: DIAMOND_HOE
+        amount: '1'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 8
+      '10':
+        id: BUCKET
+        amount: '1'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: FISHING_ROD
+        amount: '1'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        id: SHIELD
+        amount: '1'
+        durability: '0'
+        preview_slot: 12
+      '14':
+        id: ENDER_PEARL
+        amount: '4'
+        durability: '0'
+        preview_slot: 13
+      '15':
+        id: CHEST
+        amount: '4'
+        durability: '0'
+        preview_slot: 14
+      '16':
+        id: SADDLE
+        amount: '1'
+        durability: '0'
+        preview_slot: 15
+      '17':
+        book-enchants:
+        - DAMAGE_ALL;2
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 16
+      '18':
+        book-enchants:
+        - DURABILITY;3
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 17
+      '19':
+        book-enchants:
+        - DIG_SPEED;4
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 18
+      '20':
+        id: EXPERIENCE_BOTTLE
+        amount: '64'
+        durability: '0'
+        preview_slot: 19
+  champion:
+    slot: 16
+    display_item: PLAYER_HEAD
+    display_item_skulldata: ;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y2NmY3ZjAzMTI1Y2Y1NDczMzY5NmYzNjMyZjBkOWU2NDcwYmFhYjg0OTg0N2VhNWVhMmQ3OTE1NmFkMGY0MCJ9fX0=
+    display_name: '&d&lCHAMPION &8| &7&okit'
+    display_lore:
+    - ''
+    - '&d&lInformation'
+    - '&d&l┃ &7Kit: &d[CHAMPION]'
+    - '&d&l┃ &7Cooldown: &d24h'
+    - '&d&l┃ &7Status: &a&l✔'
+    - ''
+    - '&dLeft-click &8| &7claim kit'
+    - '&dRight-click &8| &7preview kit'
+    cooldown: 86400
+    permission: kits.champion
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c&lCHAMPION &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[CHAMPION]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    one_time_buy: false
+    auto_armor: true
+    price: '250'
+    display_item_glowing: false
+    noBuyItem:
+      display_item: FURNACE_MINECART
+      display_name: '&c&lCHAMPION &8| &7&okit'
+      display_lore:
+      - ''
+      - '&c&lInformation'
+      - '&c&l┃ &7Kit: &c[CHAMPION]'
+      - '&c&l┃ &7Cooldown: &c24h'
+      - '&c&l┃ &7Status: &c&l✘'
+      - ''
+      - '&cNo Permission.'
+    Items:
+      '1':
+        id: NETHERITE_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: NETHERITE_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: NETHERITE_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: NETHERITE_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: NETHERITE_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: NETHERITE_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: NETHERITE_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: NETHERITE_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        id: NETHERITE_HOE
+        amount: '1'
+        durability: '0'
+        preview_slot: 8
+      '10':
+        id: BUCKET
+        amount: '1'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: FISHING_ROD
+        amount: '1'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        id: SHIELD
+        amount: '1'
+        durability: '0'
+        preview_slot: 12
+      '14':
+        id: TOTEM_OF_UNDYING
+        amount: '1'
+        durability: '0'
+        preview_slot: 13
+      '15':
+        id: GOLDEN_APPLE
+        amount: '4'
+        durability: '0'
+        preview_slot: 14
+      '16':
+        book-enchants:
+        - LOOT_BONUS_MOBS;3
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 15
+      '17':
+        book-enchants:
+        - DEPTH_STRIDER;3
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 16
+      '18':
+        book-enchants:
+        - DURABILITY;3
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 17
+      '19':
+        book-enchants:
+        - LOOT_BONUS_BLOCKS;3
+        id: ENCHANTED_BOOK
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+        preview_slot: 18

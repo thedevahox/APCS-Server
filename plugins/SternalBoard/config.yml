@@ -1,0 +1,46 @@
+settings:
+  animated: false
+  mode: NORMAL
+  scoreboard-normal-update: 20
+  scoreboard-world-update: 20
+  scoreboard:
+    title: '&b&lYang&f&lMC'
+    lines:
+    - ''
+    - '&b%player_name%'
+    - '&d│ &fRank: &d%vault_rank%'
+    - '&d│ &fCoins: &d%vault_eco_balance_formatted%'
+    - '&d│ &fKills: &d%statistic_player_kills%'
+    - ''
+    - '&f● &bplay.yangmc.ink'
+scoreboard-world:
+  world:
+    title: '&b&lYang&f&lMC'
+    lines:
+    - ''
+    - '      &6&lWORLD'
+    - '&b%player_name%'
+    - '&d│ &fRank: &d%vault_rank%'
+    - '&d│ &fCoins: &d%vault_eco_balance_formatted%'
+    - ''
+    - '&bServer'
+    - '&d│ &fLobby: &d#1'
+    - '&d│ &fPing: &d%player_ping%'
+    - '&d│ &fPlayers: &d%bungee_total%'
+    - ''
+    - '&f● &bplay.yangmc.ink'
+  example_world:
+    title: '&b&lYang&f&lMC'
+    lines:
+    - ''
+    - '      &6&lEXAMPLE WORLD'
+    - '&d%player_name%'
+    - '&b│ &fRank: &b%vault_rank%'
+    - '&b│ &fCoins: &b%vault_eco_balance_formatted%'
+    - ''
+    - '&dServer'
+    - '&b│ &fLobby: &b#1'
+    - '&b│ &fPing: &b%player_ping%'
+    - '&b│ &fPlayers: &b%bungee_total%'
+    - ''
+    - '&f● &bplay.yangmc.ink'

@@ -1,0 +1,73 @@
+panels:
+  info:
+    perm: default
+    rows: 4
+    title: '&cInfo'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1OWU1YzdiMDczOGI1NzlmM2I0NDRjMTNhNDdiZWQ0OTZiMzA4MzhiMmVlMmIxMjdjYzU5Y2Q3OThhZWU3NyJ9fX0=
+        stack: 1
+        name: '&9&lDISCORD'
+        lore:
+        - '&cClick to join our Community Discord.'
+        commands:
+        - 'msg= &9&lDISCORD: &chttps://discord.gg/KhC3YPFW'
+        - cpc
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBkMjBmNjAzM2E1ODYyNjg0MWM4MGRjMjVlNjA0ZmMyMmY4ZGJhOGVhZGFkN2RlOTIxMzMwZmYyNmUxNjU5YyJ9fX0=
+        stack: 1
+        name: '&b&lWEBSITE'
+        lore:
+        - '&cClick to visit our Server Website.'
+        commands:
+        - 'msg= &b&lWEBSITE: &cwww.yangmc.ink'
+        - cpc
+      '15':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRjY2I1Mjc1MGU5N2U4MzBhZWJmYThhMjFkNWRhMGQzNjRkMGZkYWQ5ZmIwY2MyMjBmZTJjYTg0MTE4NDJjMyJ9fX0=
+        stack: 1
+        name: '&e&lSTORE'
+        lore:
+        - '&cClick to visit our Server Store.'
+        - ''
+        - '&6&n50% Offer!'
+        commands:
+        - 'msg= &eStore: &cstore.yangmc.ink'
+        - cpc
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1ODA0ODliMmQ0NGU1ZDlhOWIzZjgzNmVmMjE5ZjAzMTI5OTJkNDBiMTRkOTlmNTZjNWFmMDVjNDBmNzE1In19fQ==
+        stack: 1
+        name: '&5&lTWITCH'
+        lore:
+        - '&cClick to view our Weekly Streams.'
+        commands:
+        - 'msg= &5&lTWITCH: &ctwitch.tv/YangMC'
+        - cpc
+      '23':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkNDZhNDIyYWU1OTYwM2ZkODg5YzI1MzQ0ZmY2N2JjODQzYWY4ZWU1MTg5MzJjMmUyYWQwN2NkYmY5MzliMyJ9fX0=
+        stack: 1
+        name: '&3&lTWITTER'
+        lore:
+        - '&cClick to visit Twitter Posts'
+        - '&crelated the Server.'
+        commands:
+        - 'msg= &3&lTWITTER: &chttps://twitter.com/YangMC'
+        - cpc
+      '24':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE0NTFlNWY4NWY4YmY3NDcyZjZlNmQxOWI3ZGRkOGZhZTM5OWUwOTkxMWYyMWJjZTdmOTcxMzFiNDJhNWE1NyJ9fX0=
+        stack: 1
+        name: '&4&lYOUTUBE'
+        lore:
+        - '&fClick to visit our Youtube Channel'
+        - '&ffor Server related Content.'
+        commands:
+        - 'msg= &4&lYOUTUBE: &fwww.youtube.com/YangMC'
+        - cpc
+      '11':
+        material: cps= self
+        stack: 1
+        name: '&cPlayer&7: &f%player_name%'
+        lore:
+        - '&cBalance&7: &f%vault_eco_balance_formatted%'
+    commands:
+    - info

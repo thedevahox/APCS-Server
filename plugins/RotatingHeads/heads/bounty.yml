@@ -1,0 +1,19 @@
+settings:
+  view-distance: 25
+  view-permission: none
+  animations:
+  - Rotate(direction=LEFT,speed=2)
+  small: false
+  location: Lobby(-22.5,-40.0,14.5)
+head:
+  type: ITEM
+  value: PLAYER_HEAD(amount=1,skin=icee)
+name:
+  offset: 0.25
+  space: 0.25
+  lines:
+  - '&7+--------------------------+'
+  - '&fHey &c%player%&f!'
+  - 'Use &c/bounty create player amount'
+  - 'to start a &cbounty &fon any player'
+  - '&7+--------------------------+'

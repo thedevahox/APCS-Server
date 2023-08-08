@@ -1,0 +1,52 @@
+# HellConomy v0.1.0.0
+# Author: creatorfromhell
+# License: http://creativecommons.org/licenses/by-nc-nd/4.0/
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/HellConomy
+# To donate to the continued development of HellConomy with perks, https://patreon.com/creatorfromhell
+# All configurable messages in HellConomy
+# Colour characters are supported, just use the colour code preceded by an ampersand character('&')
+# An alternate colouring format is also viable, just oldtype out the name of the colour inside a less than and greater than symbol
+#
+# Colour chart
+# Char  |   Alt
+# ------|-----------
+#  &b   |  <aqua>
+#  &0   |  <black>
+#  &9   |  <blue>
+#  &3   |  <dark_aqua>
+#  &1   |  <dark_blue>
+#  &8   |  <dark_gray>
+#  &2   |  <dark_green>
+#  &5   |  <dark_purple>
+#  &4   |  <dark_red>
+#  &6   |  <gold>
+#  &7   |  <gray>
+#  &a   |  <green>
+#  &d   |  <purple>
+#  &c   |  <red>
+#  &f   |  <white>
+#  &e   |  <yellow>
+#  &k   |  <magic>
+#  &l   |  <bold>
+#  &o   |  <italic>
+#  &r   |  <reset>
+#  &m   |  <strike>
+#  &n   |  <underline>
+messages:
+    commands:
+       general:
+          unable: "<red>I'm sorry, but you're not allowed to use that command."
+          none: "<yellow>Command $command $arguments could not be found! Try using $command help."
+          inactive: "<red>Command $command $arguments has been deactivated! Try using $command help."
+       money:
+          balance: "/money balance [world] - Displays your current holdings."
+          give: "/money give <player> <amount> [world] - Adds money into your economy, and gives it to an account."
+          other: "/money other <player> [world] - Displays the holdings of another account."
+          pay: "/money pay <player> <amount> [world] - Displays the holdings of another account."
+          set: "/money set <player> <amount> [world] - Set the holdings of an account."
+          take: "/money take <player> <amount> [world] - Removes money from your economy, specifically from an account's balance."
+          top: "/money top [page] - Displays the most wealthy accounts, optional page argument."
+       account:
+          create: "/account create <name> [balance] - Creates an account, with an optional starting balance."
+          delete: "/account delete <name> - Deletes an account."

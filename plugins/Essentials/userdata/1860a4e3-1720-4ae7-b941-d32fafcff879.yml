@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 213.118.139.48
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677685523266
+  login: 1677685302447
+money: '0'
+last-account-name: Makkertje_Pis
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: -2.418268371946765
+  y: -40.0
+  z: 3.573573151584834
+  yaw: -1.329833984375
+  pitch: -2.0128650665283203
+logoutlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 475.37521906058447
+  y: 148.5
+  z: 590.415096835742
+  yaw: 84.24273681640625
+  pitch: 60.54322052001953

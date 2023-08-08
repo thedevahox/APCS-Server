@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.186.254.184
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676865119071
+  login: 1676864406113
+money: '1000'
+last-account-name: Worldtrader
+lastlocation:
+  world: f6d355bf-988d-429b-8b1e-5ddcbac063b2
+  world-name: world
+  x: -805.8350914065305
+  y: 112.0
+  z: 612.745921945843
+  yaw: -140.57876586914062
+  pitch: 10.51099967956543
+logoutlocation:
+  world: f6d355bf-988d-429b-8b1e-5ddcbac063b2
+  world-name: world
+  x: -811.9566446643643
+  y: 103.0
+  z: 547.2041187199259
+  yaw: 66.58126831054688
+  pitch: -12.738554954528809

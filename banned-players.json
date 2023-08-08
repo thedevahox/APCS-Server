@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "13e8bb75-82c6-4f0a-bf8f-cbba8bdfdd6e",
+    "name": "e6b",
+    "created": "2023-02-20 04:20:43 +0000",
+    "source": "CheckedTwice",
+    "expires": "forever",
+    "reason": "You have been bonked/banned!"
+  },
+  {
+    "uuid": "626e1a21-4bfe-41c1-9fb7-6180019d7ddd",
+    "name": "ignIce",
+    "created": "2023-03-01 05:12:01 +0000",
+    "source": "§c§LYang§r",
+    "expires": "forever",
+    "reason": "You have been bonked/banned!"
+  }
+]

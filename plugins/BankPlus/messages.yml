@@ -1,0 +1,59 @@
+# Messages File BankPlus
+# Made by Pulsi_
+#
+# Local Placeholders
+# These placeholders will work only in some of these messages, do
+# not use it for gui or any other things because they won't work!
+#
+# %amount% -> Number Formatted with commas
+# %amount_long% -> Raw Number
+# %amount_formatted% -> Number Formatted
+# %amount_formatted_long% -> Number formatted without "."
+# %player_name% -> Player name
+
+# System
+Reload: "&d&l✪ &aPlugin reloaded!"
+Error: "&d&l✪ &cSome errors occurred..."
+Unknown-Command: "&d&l✪ &cUnknown Command!"
+Interest-Restarted: "&d&l✪ &aInterest Restarted!"
+Interest-Disabled: "&d&l✪ &cYou can't use Interest, please enabled it in the config!"
+Interest-Usage: "&d&l✪ &aUsage: /bank interest restart"
+
+# Error
+Specify-Number: "&d&l✪ &cPlease specify a number!"
+Specify-Player: "&d&l✪ &cPlease specify a player!"
+Not-Player: "&d&l✪ &cYou are not a player!"
+Invalid-Number: "&d&l✪ &cPlease choose a valid number!"
+Insufficient-Money-Withdraw: "&d&l✪ &cYou don't have sufficient money to withdraw!"
+Insufficient-Money-Deposit: "&d&l✪ &cYou don't have sufficient money to deposit!"
+No-Permission: "&d&l✪ &cYou don't have the permission!"
+Cannot-Deposit-Anymore: "&d&l✪ &cYou can't deposit anymore money!"
+Cannot-Use-Bank-Here: "&d&l✪ &cSorry, the bank is disabled in this world!"
+Cannot-Use-Negative-Number: "&d&l✪ &cYou can't use a negative number!"
+Minimum-Number: "&d&l✪ &cPlease use an higher number for this action! ( min: %minimum% )"
+
+# Plugin
+Personal-Bank: "&d&l✪ &aYou have &f%amount_formatted% Money &ain your bank."
+Success-Withdraw: "&d&l✪ &aSuccessfully withdrew &f%amount_formatted% Money&a!"
+Success-Deposit: "&d&l✪ &aSuccessfully deposited &f%amount_formatted% Money&a!"
+Bank-Others: "&d&l✪ &f%player_name% &ahas &f%amount_formatted% Money &ain their bank!"
+Set-Message: "&d&l✪ &aYou have set &f%player_name%'s &abank balance to &f%amount_formatted%&a!"
+Add-Message: "&d&l✪ &aYou have added &f%amount_formatted% Money &ato &f%player_name%'s &abank balance!"
+Remove-Message: "&d&l✪ &aYou have removed &f%amount_formatted% Money &ato &f%player_name%'s &abank balance!"
+Chat-Deposit: "&d&l✪ &aType an amount in chat to deposit, type 'exit' to exit"
+Chat-Withdraw: "&d&l✪ &aType an amount in chat to withdraw, type 'exit' to exit"
+Title-Custom-Amount:
+  Enabled: true
+  Title-Deposit: "&fType in &achat &fan, amount to &adeposit"
+  Title-Withdraw: "&fType in &achat &fan, amount to &awithdraw"
+Interest-Broadcast:
+  Enabled: true
+  Message: "&d&l✪ &aYou have earned &f%amount_formatted% Money &ain interest!"
+  No-Money: "&d&l✪ &aSadly, you received 0 money from interest."
+Help-Message:
+  - "&d&l✪ &aHelp page"
+  - "&a/bank deposit <amount> &7Deposit an amount of Money."
+  - "&a/bank withdraw <amount> &7Withdraw an amount of Money."
+  - "&a/bank view <player> &7View the balance of a player."
+  - "&7Plugin made by Pulsi_"
+  - "&aRate 5 Star!"

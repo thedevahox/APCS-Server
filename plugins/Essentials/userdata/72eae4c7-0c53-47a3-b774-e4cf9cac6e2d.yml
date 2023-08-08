@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.247.44.229
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677170103994
+  login: 1677170056716
+money: '0'
+last-account-name: DaddyMaik
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 476.98912647969024
+  y: 137.0
+  z: 647.9090433101514
+  yaw: -102.64061737060547
+  pitch: 14.296418190002441
+logoutlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 476.98912647969024
+  y: 137.0
+  z: 647.9090433101514
+  yaw: -102.64061737060547
+  pitch: 14.296418190002441

@@ -1,0 +1,25 @@
+player:
+  info:
+    lastSeenAs: ignIce
+homes:
+  home:
+    x: 478
+    y: 137
+    z: 648
+    yaw: 43.900223
+    pitch: 15.600001
+    world: Lobby
+  spawn:
+    x: 201
+    y: 113
+    z: 611
+    yaw: 90.031494
+    pitch: -3.6356506
+    world: Lobby
+  crates:
+    x: 501
+    y: 141
+    z: 655
+    yaw: -14.386462
+    pitch: 10.952643
+    world: Lobby

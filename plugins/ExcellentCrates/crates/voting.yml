@@ -1,0 +1,214 @@
+Name: §bVoting Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: 9,14
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - voting
+Block:
+  Locations:
+  - -8.0,-39.0,31.0,0.0,0.0,Lobby
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Offset:
+      Y: 1.5
+    Text:
+    - §e§lVOTE CRATE
+    - §7Use §e/vote
+  Effect:
+    Model: NONE
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    redstone:
+      Name: Redstone_Dust
+      Chance: 35.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78600
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt74pb4edq6urj50400agrfeln78600
+    chicken:
+      Name: Cooked Chicken
+      Chance: 30.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79hmurrbcli5uor8d5hmmpbe0400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79hmurrbcli5uor8d5hmmpbe0400agrfeln78400
+    enchantment_table:
+      Name: Enchanting Table
+      Chance: 5.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej5dphmgobeehkmspqvehgm4r350400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej5dphmgobeehkmspqvehgm4r350400agrfeln78080
+    porkchop:
+      Name: Cooked Porkchop
+      Chance: 30.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78300
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78300
+    bread:
+      Name: Bread
+      Chance: 26.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qc9p6aob40400agrfeln78800
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qc9p6aob40400agrfeln78800
+    iron:
+      Name: Iron Ingot
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln783g0
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln783g0
+    dmdblock:
+      Name: Diamond Block
+      Chance: 3.5
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln780o0
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln780o0
+    diamond:
+      Name: Diamond
+      Chance: 4.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78300
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78300
+    endcrystal:
+      Name: End Crystal
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi5uorif5pn8obc0400agrfeln78180
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi5uorif5pn8obc0400agrfeln78180
+    gapple:
+      Name: Golden Apple
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78100
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78100
+    gcarret:
+      Name: Golden Carrot
+      Chance: 20.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6errcchimsnr3c5p74rrk0400agrfeln78200
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6errcchimsnr3c5p74rrk0400agrfeln78200
+    gol:
+      Name: Gold Ingot
+      Chance: 6.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78300
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78300
+    cookie:
+      Name: Cookie
+      Chance: 40.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ej3dtnmmqb50400agrfeln78c00
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ej3dtnmmqb50400agrfeln78c00
+    eth:
+      Name: Amethyst Cluster
+      Chance: 8.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej1dlin8q3pedq5uorcelpn8pbi0400agrfeln78100
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej1dlin8q3pedq5uorcelpn8pbi0400agrfeln78100
+    pearl:
+      Name: Ender Pearl
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78200
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78200
+    extra_heart:
+      Name: §c§lExtra Heart
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb4008mqqbeclhn4ob6egt74pb4bti7ip8a001n8ob71800ep39edo6oobp10008jj1dlig14br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i5f1q74o9091im2sjk49ulqb12ehingt1278h24v890024orrick4000000809qup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jmur3448m24t35f1q24eh28tkncpbj41gms835f1q74o90d1im2sjk44h7qn9c49q6au3k48t248jt02r7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49q6au3k48t24mbfekg6gobmckg32c1g4kg78rp0ctin8831dog62p34d5q6irrec5m20q35c5p78831chi6ap1e49ulqb12ehingt1278h24v8018014k3lc9m6ioq2ellmmqbkapgmotb5ec1g043cd5j6asrkclgmoej3d1gmsor500000p080076oqb6clpn8pb1dgt6it35dk00kpboehp62i35c5p780000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb4008mqqbeclhn4ob6egt74pb4bti7ip8a001n8ob71800ep39edo6oobp10008jj1dlig14br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i5f1q74o9091im2sjk49ulqb12ehingt1278h24v890024orrick4000000809qup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jmur3448m24t35f1q24eh28tkncpbj41gms835f1q74o90d1im2sjk44h7qn9c49q6au3k48t248jt02r7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49q6au3k48t24mbfekg6gobmckg32c1g4kg78rp0ctin8831dog62p34d5q6irrec5m20q35c5p78831chi6ap1e49ulqb12ehingt1278h24v8018014k3lc9m6ioq2ellmmqbkapgmotb5ec1g043cd5j6asrkclgmoej3d1gmsor500000p080076oqb6clpn8pb1dgt6it35dk00kpboehp62i35c5p780000400agrfeln780o0
+Animation_Config: spin_csgo
+Item:
+  Material: ENDER_CHEST
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false

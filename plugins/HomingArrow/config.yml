@@ -1,0 +1,40 @@
+#Version 1.5.3
+
+#Messages
+
+#Message for the target
+command_target_message: 'You got a bow'
+
+#Message for the target capturing (%entity% is the captured entity)
+target_captured: '&6Target captured: &9%entity%'
+
+#Item name
+item_name: '&9Zeus'
+
+#Lore
+lore:
+- '&9- &6Tracking Arrows'
+
+#A value to set the level of tracking (If you dont know it, let it on default)
+#Recommed=> 0.10-0.19
+MaxRotationAngle: 0.12
+
+#The distance untill arrow wont follow
+MaxDistance: 60
+
+#Leave it blank if you dont want to use a hitmessage
+HitMessage: "&6Target damaged"
+
+#A-I (max. 9 materials)
+CraftingMat:
+- 'REDSTONE_BLOCK'
+- 'ENDER_PEARL'
+- 'BOW'
+- 'REDSTONE'
+
+CraftingRec:
+- 'BDA'
+- 'DCD'
+- 'DDB'
+
+useRecipe: true

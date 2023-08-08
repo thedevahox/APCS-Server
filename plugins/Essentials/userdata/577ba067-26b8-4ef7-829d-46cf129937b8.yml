@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 70.180.185.75
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677215266728
+  login: 1677215014377
+money: '0'
+last-account-name: Wrenv3
+lastlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: -2.418268371946765
+  y: -40.0
+  z: 3.573573151584834
+  yaw: -1.329833984375
+  pitch: -2.0128650665283203
+logoutlocation:
+  world: 83393d04-0bd4-474d-8212-20c0465aab23
+  world-name: Lobby
+  x: 477.8176721607017
+  y: 137.5
+  z: 655.8082886120245
+  yaw: -176.744873046875
+  pitch: -3.1497886180877686

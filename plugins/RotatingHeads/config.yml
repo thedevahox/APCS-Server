@@ -1,0 +1,12 @@
+settings:
+  # It monitors the spigot page and looks for available updates
+  check-updates: true
+  # The value is in ticks. 20 ticks = 1 second.
+  # This value indicates how long the headers will be loaded after the plugin is started.
+  #
+  # Recommended for at least 2 seconds (40)
+  load-timer: 100
+  # Delay for head load when player join
+  join-load-delay: 20
+  move-hologram-with-head: true
+  language: en_GB
